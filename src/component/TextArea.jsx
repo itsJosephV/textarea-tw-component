@@ -16,7 +16,7 @@ const TextArea = () => {
   
   return (
 
-      <form className="relative flex h-full flex-1 items-stretch md:flex-col">
+      <form>
         <div className="relative flex w-full flex-grow flex-col overflow-hidden rounded-md">
           <textarea
             className="m-0 max-h-[150px] h-[52px] w-full resize-none border-0 py-[10px] pl-3 pr-[50px] placeholder-white/50 bg-slate-700 text-white"

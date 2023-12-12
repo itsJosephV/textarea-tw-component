@@ -1,4 +1,3 @@
-import "./App.css";
 import TextArea from "./component/TextArea";
 
 function App() {
