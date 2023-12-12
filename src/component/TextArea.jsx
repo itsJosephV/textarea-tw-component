@@ -9,7 +9,6 @@ const TextArea = () => {
     const textArea = textAreaRef.current;
     textArea.style.height = "auto";
     textArea.style.height = `${textArea.scrollHeight}px`;
-    textArea.scrollTop = textArea.scrollHeight;
   }, [letterValue]);
 
   return (
