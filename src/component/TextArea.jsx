@@ -9,14 +9,13 @@ const TextArea = () => {
     const textArea = textAreaRef.current;
     textArea.style.height = "auto";
     textArea.style.height = `${textArea.scrollHeight}px`;
-    // textArea.scrollTop = textArea.scrollHeight
   }, [letterValue]);
 
   return (
     <form className="mb-10">
       <div className="relative flex w-full overflow-hidden rounded-md">
         <textarea
-          className="max-h-[200px] h-[52px] w-full resize-none py-3.5 pr-12 pl-4 placeholder-white/50 bg-slate-700 text-white select-text"
+          className="max-h-[200px] h-[52px] w-full resize-none py-3.5 pr-12 pl-4 placeholder-white/50 bg-slate-700 text-white"
           rows="1"
           tabIndex="0"
           placeholder="mdfka..."
